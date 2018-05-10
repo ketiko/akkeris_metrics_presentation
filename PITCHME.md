@@ -4,5 +4,5 @@
 
 +++
 
-![Memory](https://github.com/ketiko/akkeris_metrics_presentation/blob/master/images/memory.png)
-![Requests](images/memory.png)
+![Memory](images/memory.png)
+![Requests](images/requests.png)
