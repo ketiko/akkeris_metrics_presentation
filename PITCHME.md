@@ -36,3 +36,19 @@ $stdout.puts("sample#db.size=100GB")
 Into this:
 
 ![img](http://f.cl.ly/items/2R0h1x1b3V0Y0z0l1t1n/Screen%20Shot%202013-07-30%20at%209.59.52%20PM.png)
+
++++
+
+### Akkeris Metric Tagging
+
+```ruby
+$stdout.puts("measure#request.duration=4ms tag#controller=UsersController tag#action=index tag#method=get")
+$stdout.puts("measure#request.duration=15ms tag#controller=UsersController tag#action=create tag#method=post")
+$stdout.puts("measure#request.duration=64ms tag#controller=Companies tag#action=index tag#method=get")
+```
+
++++
+
+### Rails Instrumentation
+
+![Rails](images/rails_instrumentation.png)
