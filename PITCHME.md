@@ -42,9 +42,9 @@ Into this:
 ### Akkeris Metric Tagging
 
 ```ruby
-$stdout.puts("measure#request.duration=4ms tag#controller=UsersController tag#action=index tag#method=get")
-$stdout.puts("measure#request.duration=15ms tag#controller=UsersController tag#action=create tag#method=post")
-$stdout.puts("measure#request.duration=64ms tag#controller=Companies tag#action=index tag#method=get")
+measure#duration=4ms tag#controller=UsersController tag#action=index tag#method=get")
+measure#duration=1ms tag#controller=UsersController tag#action=create tag#method=post")
+measure#duration=6ms tag#controller=CompaniesController tag#action=index tag#method=get")
 ```
 
 +++
