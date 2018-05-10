@@ -43,8 +43,8 @@ Into this:
 
 ```ruby
 "measure#request.duration=4ms tag#controller=UsersController"
-"measure#request.duration=15ms tag#controller=UsersController"
-"measure#request.duration=64ms tag#controller=Companies"
+"measure#request.duration=1ms tag#controller=UsersController"
+"measure#request.duration=6ms tag#controller=CompaniesController"
 ```
 
 +++
